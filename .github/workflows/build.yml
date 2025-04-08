@@ -11,5 +11,5 @@ jobs:
       soc: sm8550
       branch: oneplus/sm8550_v_15.0.0_oneplus11
       manifest: default.xml
-      android_version: "15"
+      android_version: "14"
       kernel_version: "5.15"
