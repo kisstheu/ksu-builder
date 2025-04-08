@@ -9,7 +9,7 @@ jobs:
     with:
       model: salami
       soc: sm8550
-      branch: oneplus/sm8550_v_15.0.0_oneplus11
+      branch: oneplus/sm8550
       manifest: default.xml
       android_version: "android14"
       kernel_version: "5.15"
