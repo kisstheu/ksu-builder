@@ -1,0 +1,15 @@
+name: Trigger KernelSU Build
+
+on:
+  workflow_dispatch:  # 手动按钮触发
+
+jobs:
+  build:
+    uses: WildPlusKernel/OnePlus_KernelSU_SUSFS/.github/workflows/build.yml@main
+    with:
+      model: salami
+      soc: sm8550
+      branch: oneplus/sm8550_v_15.0.0_oneplus11
+      manifest: default.xml
+      android_version: "15"
+      kernel_version: "5.15"
